@@ -20,7 +20,7 @@ HIGH ----> ligado ----> ledR e ledB piscando alternados a cada 350ms.
 */
 
 void loop() {
-  if(digitalRead(BT1) == HIGH){ // quando o botão for pressionado
+  if(digitalRead(BT1) == HIGH){ // botão for pressionado
     piscaRB();
   }
   else{
