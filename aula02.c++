@@ -6,6 +6,8 @@
 #define ledB 2
 
 void setup() {
+    // Habilita comuncação seriaç (BAUD rate = 9600 bits/s)
+  Serial.begin(9600);
   pinMode(BT1, INPUT);
   pinMode(BT2, INPUT);
   pinMode(ledR, OUTPUT);
@@ -20,9 +22,15 @@ HIGH ----> ligado ----> ledR e ledB piscando alternados a cada 350ms.
 */
 
 void loop() {
-  if(digitalRead(BT1) == HIGH){ // botão for pressionado
+    statusBT1 = digitalRead(BT1);
+    
+  if(statusBT1 == HIGH){ // botão for pressionado
+    contador++;
+    Serial.print("Valor do contador = ");
+    Serial.println(contador);
     piscaRB();
   }
+  
   else{
     piscaW();
   }
