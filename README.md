@@ -51,12 +51,3 @@ Fornecer uma base de códigos em C++ para projetos com Arduino, permitindo:
 - Testes de sensores e atuadores
 - Aprendizado prático de programação embarcada
 
--------------------------------------------------------------------------------
-
-## 📄 Licença
-
-Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE` para mais detalhes.
-
--------------------------------------------------------------------------------
-
-Desenvolvido por: Pedro Lima
