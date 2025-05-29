@@ -16,8 +16,8 @@ Os códigos seguem a estrutura padrão de um sketch Arduino, incluindo as funç�
 
 1. Faça o clone do repositório:
 
-   $ git clone https://github.com/seu-usuario/nome-do-repositorio.git
-   $ cd nome-do-repositorio
+   $ git https://github.com/30Lima/Arduino.git
+   $ cd Arduino
 
 2. Abra o arquivo desejado na Arduino IDE:
 
